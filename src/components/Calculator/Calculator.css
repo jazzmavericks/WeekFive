@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@900&display=swap');
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(139, 59, 1);
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+    width: 600px;
+    margin: 10px 30% 0 30%;
+    background-color: rgb(236, 98, 38);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 3px;
+    font-family: 'Suwannaphum', serif;
+    font-size: 20px;
+    transition: all 0.2s; /* Adding a smooth transition effect */
+
+    /* Default button styles */
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+button:hover {
+    /* Button styles when hovered over */
+    cursor: pointer;
+    background-color: #ccc;
+    transform: translateY(2px); /* Push the button down slightly */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    /* Button styles when clicked (active state) */
+    background-color: #999;
+    transform: translateY(4px); /* Push the button down further */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.buttons {
+    margin: 0 40px 0 40px;
+}
+
+input {
+    color:rgb(13, 248, 103);
+    font-size: 20px;
+    width: 456px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px 15px 0px 0px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.display{
+    width: 500px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgb(67, 28, 0);
+    margin: 10px auto;
+    background-color: rgb(83, 82, 82);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.result{
+    color:rgb(13, 248, 103);
+    font-size: 60px;
+    width: 460px;
+    height: 80px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.casioLogo img {
+    width: 100px;
+}
+
+.solarPanel img {
+    width: 200px;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top:50px;
+}

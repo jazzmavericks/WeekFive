@@ -1,0 +1,9 @@
+.counterSection {
+    margin: 40px;
+    font-size: 30px;
+}
+
+.counterSection button {
+    padding: 20px;
+    margin: 20px;
+}

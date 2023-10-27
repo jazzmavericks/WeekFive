@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react';
+import Job from './components/Job';
+import Person from './components/Person';
+import Netflix from './components/Netflix/Netflix';
+import BBC from './components/BBC/BBC';
+import AirBB from './components/AirBB/AirBB';
+import Counter from './components/Counter/Counter';
+import Map from './components/Map/Map';
+import Calculator from './components/Calculator/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Calculator />
+      <Map />
+      <Counter />
+      <Netflix />
+      <BBC />
+      <AirBB />
+
     </div>
   );
 }

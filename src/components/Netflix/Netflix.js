@@ -9,19 +9,19 @@ const Netflix = () => {
     return (
         <div className="netflix-parent">
             <div className="netflix-child">
-                <img src={net1}></img>
+                <img src={net1} alt="Netflix1"></img>
             </div>
             <div className="netflix-child">
-                <img src={net2}></img>
+                <img src={net2} alt="Netflix2"></img>
             </div>
             <div className="netflix-child">
-                <img src={net3}></img>
+                <img src={net3} alt="Netflix3"></img>
             </div>
             <div className="netflix-child">
-                <img src={net4}></img>
+                <img src={net4} alt="Netflix4"></img>
             </div>
             <div className="netflix-child">
-                <img src={net5}></img>
+                <img src={net5} alt="Netflix5"></img>
             </div>
 
         </div>

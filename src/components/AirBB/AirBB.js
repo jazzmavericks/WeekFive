@@ -9,7 +9,7 @@ const AirBB = () => {
         <div className="airBB-parent">
             <div className="airBB-child">
                 <div>
-                    <img src={airBB1}></img>  
+                    <img src={airBB1} alt="Air B and B 1"></img>  
                 </div>              
                 <div className="BBC-h3">
                     <h3>Entire homes</h3>
@@ -17,7 +17,7 @@ const AirBB = () => {
             </div>
             <div className="airBB-child">
                 <div>
-                    <img src={airBB2}></img>  
+                    <img src={airBB2} alt="Air B and B 2"></img>  
                 </div>              
                 <div className="BBC-h3">
                     <h3>Unique stays</h3>
@@ -25,7 +25,7 @@ const AirBB = () => {
             </div>
             <div className="airBB-child">
                 <div>
-                    <img src={airBB3}></img>  
+                    <img src={airBB3} alt="Air B and B 3"></img>  
                 </div>              
                 <div className="BBC-h3">
                     <h3>Cabins and cottages</h3>
@@ -33,7 +33,7 @@ const AirBB = () => {
             </div>
             <div className="airBB-child">
                 <div>
-                    <img src={airBB4}></img>  
+                    <img src={airBB4} alt="Air B and B 4"></img>  
                 </div>              
                 <div className="BBC-h3">
                     <h3>Pets allowed</h3>

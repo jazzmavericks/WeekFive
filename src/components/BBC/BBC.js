@@ -11,7 +11,7 @@ const BBC = () => {
 
             <div className="BBC-child">
                 <div className="BBC-image">
-                    <img src={bbc1}></img>
+                    <img src={bbc1} alt="BBC1"></img>
                 </div>
                 <div className="BBC-h3">
                     <h3>Don't think the pandemic is over, Whitty warns</h3>
@@ -20,13 +20,13 @@ const BBC = () => {
                     <p>Unlocking too quickly would lead to a substrantial surge in infection, UK chief medical advisor says.</p>
                 </div>
                 <div className="BBC-bottom">
-                    <p><img src={bbcClock}></img> 2h | <b>Health</b></p>
+                    <p><img src={bbcClock} alt="BBC Clock"></img> 2h | <b>Health</b></p>
                 </div>
             </div>
 
             <div className="BBC-child">
                 <div className="BBC-image">
-                    <img src={bbc2}></img>
+                    <img src={bbc2} alt="BBC2"></img>
                 </div>
                 <div className="BBC-h3">
                     <h3>Pay rise was set to be 2.1% - NHS chief</h3>
@@ -35,13 +35,13 @@ const BBC = () => {
                     <p>NHS England boss backs ministers over pay dispute but does not rule out a one-off bonus for workers.</p>
                 </div>
                 <div className="BBC-bottom">
-                    <p><img src={bbcClock}></img> 1h | <b>UK Politics</b></p>
+                    <p><img src={bbcClock} alt="BBC2"></img> 1h | <b>UK Politics</b></p>
                 </div>
             </div>
 
             <div className="BBC-child">
                 <div className="BBC-image">
-                    <img src={bbc3}></img>
+                    <img src={bbc3} alt="BBC3"></img>
                 </div>
 
                 <div className="BBC-h3">
@@ -51,13 +51,13 @@ const BBC = () => {
                     <p>Mental health charity Mind says it is "disappointed" by comments Piers Morgan made on Monday.</p>
                 </div>
                 <div className="BBC-bottom">
-                    <p><img src={bbcClock}></img> 2h | <b>Entertainment & Arts</b></p>
+                    <p><img src={bbcClock} alt="BBC Clock"></img> 2h | <b>Entertainment & Arts</b></p>
                 </div>
             </div>
 
             <div className="BBC-child">
                 <div className="BBC-image">
-                    <img src={bbc4}></img>
+                    <img src={bbc4} alt="BBC4"></img>
                 </div>
                 <div className="BBC-h3">
                     <h3>Unilever drops word 'normal' from beauty products</h3>
@@ -66,7 +66,7 @@ const BBC = () => {
                     <p>The owner of Dove and Vaseline will remove the word from about 200 products in a push for inclusivity.</p>
                 </div>
                 <div className="BBC-bottom">
-                    <p><img src={bbcClock}></img> 10m | <b>Business</b></p>
+                    <p><img src={bbcClock} alt="BBC Clock"></img> 10m | <b>Business</b></p>
                 </div>
             </div>
         </div>

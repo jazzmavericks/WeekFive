@@ -121,10 +121,10 @@ return (
             ))}
                 <div className="logoBox">
                     <div className="casioLogo">
-                        <img src={Casio}></img>
+                        <img src={Casio} alt="Casion Logo"></img>
                     </div>
                     <div className="solarPanel">
-                        <img src={Solar}></img>
+                        <img src={Solar} alt="Solar Panel"></img>
                     </div>
                 </div>
             </div>

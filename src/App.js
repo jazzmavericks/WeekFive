@@ -8,17 +8,19 @@ import AirBB from './components/AirBB/AirBB';
 import Counter from './components/Counter/Counter';
 import Map from './components/Map/Map';
 import Calculator from './components/Calculator/Calculator';
+import ToDoList from './components/ToDoList/ToDoList';
+
 
 function App() {
   return (
     <div>
-
-      <Calculator />
-      <Map />
-      <Counter />
-      <Netflix />
-      <BBC />
-      <AirBB />
+    <ToDoList />
+    <Calculator />
+    <Map />
+    <Counter />
+    <Netflix />
+    <BBC />
+    <AirBB />
 
     </div>
   );

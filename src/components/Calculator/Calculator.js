@@ -68,16 +68,15 @@ const handleKeyPress = (e) => {
       setInput(input.slice(0, -1));
     }
 };
-
+  /* eslint-disable */
 // Add event listener for keys being pressed
 useEffect(() => {
-  /* eslint-disable */
     window.addEventListener('keydown', handleKeyPress);
     return () => {
       window.removeEventListener('keydown', handleKeyPress);
-  /* eslint-enable */
     };
 }, [input]);
+  /* eslint-enable */
 
 // Array of buttons grouped into rows of three
 const numberButtonRows = [

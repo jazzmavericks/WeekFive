@@ -1,7 +1,4 @@
 import './App.css';
-import {useState} from 'react';
-import Job from './components/Job';
-import Person from './components/Person';
 import Netflix from './components/Netflix/Netflix';
 import BBC from './components/BBC/BBC';
 import AirBB from './components/AirBB/AirBB';

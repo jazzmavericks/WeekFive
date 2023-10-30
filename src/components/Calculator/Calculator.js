@@ -1,6 +1,7 @@
 import '../Calculator/Calculator.css'; // Gets CSS to style calculator
 
 import React, { useState, useEffect } from 'react'; // Pulls through methods for states and keys
+import {evaluate} from 'mathjs';
 
 // Import images
 import Casio from '../../images/Casio.png';
@@ -28,7 +29,7 @@ const formatScientificNotation = (number) => {
 const handleButtonClick = (value) => {
   if (value === '=') {
     try {
-      const calculatedResult = eval(input);
+      const calculatedResult = evaluate(input);
       if (calculatedResult >= 1e8 || calculatedResult <= 1e-8) {
         setResult(formatScientificNotation(calculatedResult));
       } else {
@@ -70,8 +71,10 @@ const handleKeyPress = (e) => {
 
 // Add event listener for keys being pressed
 useEffect(() => {
+// eslint-disable-next-line react-hooks/exhaustive-deps
     window.addEventListener('keydown', handleKeyPress);
     return () => {
+// eslint-disable-next-line react-hooks/exhaustive-deps
       window.removeEventListener('keydown', handleKeyPress);
     };
 }, [input]);

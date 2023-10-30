@@ -71,11 +71,11 @@ const handleKeyPress = (e) => {
 
 // Add event listener for keys being pressed
 useEffect(() => {
-// eslint-disable-next-line react-hooks/exhaustive-deps
+  /* eslint-disable */
     window.addEventListener('keydown', handleKeyPress);
     return () => {
-// eslint-disable-next-line react-hooks/exhaustive-deps
       window.removeEventListener('keydown', handleKeyPress);
+  /* eslint-enable */
     };
 }, [input]);
 
